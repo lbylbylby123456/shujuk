@@ -1,0 +1,489 @@
+01-Jun-2019 15:03:47.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+01-Jun-2019 15:03:47.737 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+01-Jun-2019 15:03:47.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+01-Jun-2019 15:03:47.742 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jun-2019 15:03:47.743 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jun-2019 15:03:47.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jun-2019 15:03:47.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+01-Jun-2019 15:03:47.757 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+01-Jun-2019 15:03:47.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2019 15:03:47.759 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\apache-tomcat-8.5.39
+01-Jun-2019 15:03:47.760 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\apache-tomcat-8.5.39
+01-Jun-2019 15:03:47.763 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\apache-tomcat-8.5.39\conf\logging.properties
+01-Jun-2019 15:03:47.782 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2019 15:03:47.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2019 15:03:47.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2019 15:03:47.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2019 15:03:47.798 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\apache-tomcat-8.5.39
+01-Jun-2019 15:03:47.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\apache-tomcat-8.5.39
+01-Jun-2019 15:03:47.806 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-8.5.39\temp
+01-Jun-2019 15:03:47.816 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+01-Jun-2019 15:03:47.818 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Jun-2019 15:03:47.821 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jun-2019 15:03:48.126 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+01-Jun-2019 15:03:53.088 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jun-2019 15:03:55.727 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2019 15:03:57.411 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Jun-2019 15:03:57.422 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2019 15:03:57.425 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 14207 ms
+01-Jun-2019 15:03:59.926 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2019 15:03:59.944 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+01-Jun-2019 15:04:07.184 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\docs]
+01-Jun-2019 15:04:07.551 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\docs] has finished in [346] ms
+01-Jun-2019 15:04:07.555 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\examples]
+01-Jun-2019 15:04:20.547 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\examples] has finished in [12,993] ms
+01-Jun-2019 15:04:20.581 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\host-manager]
+01-Jun-2019 15:04:20.931 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\host-manager] has finished in [350] ms
+01-Jun-2019 15:04:20.948 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\manager]
+01-Jun-2019 15:04:21.361 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\manager] has finished in [413] ms
+01-Jun-2019 15:04:21.382 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\ROOT]
+01-Jun-2019 15:04:22.322 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\ROOT] has finished in [940] ms
+01-Jun-2019 15:04:22.327 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu]
+01-Jun-2019 15:04:55.138 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2019 15:04:58.482 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Parsing configuration file [struts-default.xml]
+01-Jun-2019 15:04:59.126 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Unable to locate configuration files of the name struts-plugin.xml, skipping
+01-Jun-2019 15:04:59.128 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Parsing configuration file [struts-plugin.xml]
+01-Jun-2019 15:04:59.136 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Unable to locate configuration files of the name struts.xml, skipping
+01-Jun-2019 15:04:59.138 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Parsing configuration file [struts.xml]
+01-Jun-2019 15:04:59.156 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+01-Jun-2019 15:04:59.158 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.FileManager)
+01-Jun-2019 15:04:59.162 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+01-Jun-2019 15:04:59.171 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+01-Jun-2019 15:04:59.176 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+01-Jun-2019 15:04:59.181 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+01-Jun-2019 15:04:59.185 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+01-Jun-2019 15:04:59.191 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+01-Jun-2019 15:04:59.200 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+01-Jun-2019 15:04:59.226 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+01-Jun-2019 15:04:59.229 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+01-Jun-2019 15:04:59.233 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+01-Jun-2019 15:04:59.244 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+01-Jun-2019 15:04:59.248 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+01-Jun-2019 15:04:59.253 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+01-Jun-2019 15:04:59.267 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+01-Jun-2019 15:04:59.277 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+01-Jun-2019 15:04:59.283 信息 [localhost-startStop-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.info Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+01-Jun-2019 15:05:00.438 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu] has finished in [38,112] ms
+01-Jun-2019 15:05:00.462 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jun-2019 15:05:00.534 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Jun-2019 15:05:00.565 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 63134 ms
+01-Jun-2019 15:05:29.478 警告 [http-nio-8080-exec-6] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.warn Could not find action or result
+ There is no Action mapped for action name imgAction. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:501)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:07:03.103 警告 [http-nio-8080-exec-8] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.warn Could not find action or result
+ There is no Action mapped for action name imgAction. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:501)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:07:22.588 警告 [http-nio-8080-exec-2] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.warn Could not find action or result
+ There is no Action mapped for action name imgAction. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:501)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:07:23.533 警告 [http-nio-8080-exec-1] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.warn Could not find action or result
+ There is no Action mapped for action name imgAction. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:501)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:07:24.090 警告 [http-nio-8080-exec-5] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.warn Could not find action or result
+ There is no Action mapped for action name imgAction. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:501)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:12:43.652 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+01-Jun-2019 15:14:41.890 警告 [http-nio-8080-exec-9] com.opensymphony.xwork2.util.logging.jdk.JdkLogger.warn Could not find action or result
+ There is no Action mapped for action name imgAction. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:501)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:15:53.716 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/xm13-minsu]
+01-Jun-2019 15:15:53.720 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/xm13-minsu] has started
+01-Jun-2019 15:16:03.605 严重 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/xm13-minsu]
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/xm13-minsu]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3828)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1405)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1378)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1614)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1170)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1364)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [../xm13-minsu/*] in filter mapping
+	at org.apache.catalina.core.StandardContext.validateFilterMap(StandardContext.java:3050)
+	at org.apache.catalina.core.StandardContext.addFilterMap(StandardContext.java:2997)
+	at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1275)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1156)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:769)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5134)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+01-Jun-2019 15:16:03.609 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/xm13-minsu] is completed
+01-Jun-2019 15:16:53.703 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/xm13-minsu]
+01-Jun-2019 15:16:58.181 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Error during context [/xm13-minsu] restart
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/xm13-minsu]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1414)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1378)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1614)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1170)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1364)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: Lutility/LogEvent;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:110)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:269)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:137)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:328)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:772)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5134)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: utility.LogEvent
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1364)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+	... 23 more
+
+01-Jun-2019 15:22:48.845 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+01-Jun-2019 15:22:48.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+01-Jun-2019 15:22:48.883 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+01-Jun-2019 15:22:48.885 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jun-2019 15:22:48.887 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jun-2019 15:22:48.889 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jun-2019 15:22:48.895 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+01-Jun-2019 15:22:48.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+01-Jun-2019 15:22:48.906 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2019 15:22:48.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\apache-tomcat-8.5.39
+01-Jun-2019 15:22:48.911 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\apache-tomcat-8.5.39
+01-Jun-2019 15:22:48.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\apache-tomcat-8.5.39\conf\logging.properties
+01-Jun-2019 15:22:48.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2019 15:22:48.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2019 15:22:48.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2019 15:22:48.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2019 15:22:48.952 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\apache-tomcat-8.5.39
+01-Jun-2019 15:22:48.961 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\apache-tomcat-8.5.39
+01-Jun-2019 15:22:48.968 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-8.5.39\temp
+01-Jun-2019 15:22:48.986 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+01-Jun-2019 15:22:49.007 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Jun-2019 15:22:49.015 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jun-2019 15:22:49.118 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+01-Jun-2019 15:22:50.632 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jun-2019 15:22:51.869 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2019 15:22:51.998 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Jun-2019 15:22:52.010 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2019 15:22:52.022 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 5723 ms
+01-Jun-2019 15:22:52.222 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2019 15:22:52.223 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+01-Jun-2019 15:22:54.134 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\docs]
+01-Jun-2019 15:22:54.281 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\docs] has finished in [129] ms
+01-Jun-2019 15:22:54.283 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\examples]
+01-Jun-2019 15:22:56.482 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\examples] has finished in [2,199] ms
+01-Jun-2019 15:22:56.484 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\host-manager]
+01-Jun-2019 15:22:56.668 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\host-manager] has finished in [183] ms
+01-Jun-2019 15:22:56.670 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\manager]
+01-Jun-2019 15:22:56.839 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\manager] has finished in [168] ms
+01-Jun-2019 15:22:56.861 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\ROOT]
+01-Jun-2019 15:22:57.062 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\ROOT] has finished in [201] ms
+01-Jun-2019 15:22:57.064 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu]
+01-Jun-2019 15:23:01.517 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/xm13-minsu]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1870)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: Lutility/LogEvent;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:110)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:269)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:137)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:328)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:772)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5134)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: utility.LogEvent
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1364)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+	... 23 more
+
+01-Jun-2019 15:23:01.524 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/xm13-minsu]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1870)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:23:01.537 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu] has finished in [4,473] ms
+01-Jun-2019 15:23:01.559 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jun-2019 15:23:01.589 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Jun-2019 15:23:01.602 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 9577 ms
+01-Jun-2019 15:36:33.059 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+01-Jun-2019 15:36:33.203 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+01-Jun-2019 15:36:33.270 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+01-Jun-2019 15:36:33.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jun-2019 15:36:33.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jun-2019 15:36:33.291 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jun-2019 15:36:33.296 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+01-Jun-2019 15:36:33.298 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+01-Jun-2019 15:36:33.302 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2019 15:36:33.303 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\apache-tomcat-8.5.39
+01-Jun-2019 15:36:33.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\apache-tomcat-8.5.39
+01-Jun-2019 15:36:33.318 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\apache-tomcat-8.5.39\conf\logging.properties
+01-Jun-2019 15:36:33.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2019 15:36:33.326 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2019 15:36:33.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2019 15:36:33.336 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2019 15:36:33.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\apache-tomcat-8.5.39
+01-Jun-2019 15:36:33.347 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\apache-tomcat-8.5.39
+01-Jun-2019 15:36:33.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-8.5.39\temp
+01-Jun-2019 15:36:33.355 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+01-Jun-2019 15:36:33.357 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Jun-2019 15:36:33.358 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jun-2019 15:36:33.645 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+01-Jun-2019 15:36:37.321 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jun-2019 15:36:38.585 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2019 15:36:38.650 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Jun-2019 15:36:38.667 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2019 15:36:38.672 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 9720 ms
+01-Jun-2019 15:36:38.826 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2019 15:36:38.828 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+01-Jun-2019 15:36:41.130 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\docs]
+01-Jun-2019 15:36:41.217 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\docs] has finished in [70] ms
+01-Jun-2019 15:36:41.217 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\examples]
+01-Jun-2019 15:36:42.369 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\examples] has finished in [1,152] ms
+01-Jun-2019 15:36:42.370 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\host-manager]
+01-Jun-2019 15:36:42.433 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\host-manager] has finished in [63] ms
+01-Jun-2019 15:36:42.434 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\manager]
+01-Jun-2019 15:36:42.497 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\manager] has finished in [62] ms
+01-Jun-2019 15:36:42.501 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\ROOT]
+01-Jun-2019 15:36:42.600 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\ROOT] has finished in [99] ms
+01-Jun-2019 15:36:42.601 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu]
+01-Jun-2019 15:36:49.040 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/xm13-minsu]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1870)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: Lutility/LogEvent;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:110)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:269)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:137)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:328)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:772)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5134)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: utility.LogEvent
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1364)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+	... 23 more
+
+01-Jun-2019 15:36:49.062 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/xm13-minsu]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:758)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1870)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Jun-2019 15:36:49.081 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\apache-tomcat-8.5.39\webapps\xm13-minsu] has finished in [6,479] ms
+01-Jun-2019 15:36:49.141 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jun-2019 15:36:49.171 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Jun-2019 15:36:49.190 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 10517 ms

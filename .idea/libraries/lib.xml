@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/xm13-minsu/WEB-INF/lib" />
+      <root url="file://F:/tomcat8.5/apache-tomcat-8.5.43" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://F:/tomcat8.5/apache-tomcat-8.5.43/webapps/docs/appdev/sample/src" />
+      <root url="file://F:/tomcat8.5/apache-tomcat-8.5.43/webapps/examples/WEB-INF/classes" />
+      <root url="file://F:/tomcat8.5/apache-tomcat-8.5.43/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://F:/tomcat8.5/apache-tomcat-8.5.43/webapps/examples/jsp/plugin/applet" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/web/xm13-minsu/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

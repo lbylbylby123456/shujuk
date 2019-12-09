@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!--<constant name="struts.action.extension" value="action" />-->
+    <package name="xxxx" namespace="/" extends="struts-default">
+
+        <action name="register" class="com.cyz.actions.RegisterAction" method="execute">
+            <result name="success">xm13-minsu/xm13-minsu/login/login1.jsp</result>
+        </action>
+        <action name="register1" class="com.cyz.actions.RegisterAction1" method="execute">
+        <result name="success">xm13-minsu/xm13-minsu/login/login2.jsp</result>
+        </action>
+        <action name="register3" class="com.cyz.actions.RegisterAction3" method="execute">
+            <result name="success">xm13-minsu/xm13-minsu/login/login3.jsp</result>
+        </action>
+        <action name="login1" class="com.cyz.actions.Login1Action" method="execute">
+            <result name="success">xm13-minsu/xm13-minsu/login/login1.jsp</result>
+        </action>
+        <action name="login2" class="com.cyz.actions.Login2Action" method="execute">
+            <result name="success">xm13-minsu/xm13-minsu/login/login2.jsp</result>
+        </action>
+        <action name="login3" class="com.cyz.actions.Login3Action" method="execute">
+            <result name="success"></result>
+        </action>
+        <action name="imgAction" class="com.cyz.actions.ValidatorAction" method="execute">
+            <!--<result name="success">xm13-minsu/login/login1.jsp</result>-->
+            <result name="success">xm13-minsu/login/login1.jsp</result>
+        </action>
+            <action name="addquestion" class="com.cyz.actions.SurveyAction" method="execute">
+                <result name="success">../view/view_QO.jsp</result>
+            </action>
+            <action name="add_user" class="com.cyz.actions.AddUserAction" method="execute">
+                <result name="success">adduser_g.jsp</result>
+            </action>
+            <action name="addwj" class="com.cyz.actions.SurveyAction" method="execute">
+                <result name="success">../addWJ/addWJ.jsp</result>
+            </action>
+            <action name="find" class="com.cyz.actions.FindAction" method="execute">
+                <result name="success">home1_1.jsp</result>
+            </action>
+            <action name="logout" class="com.cyz.actions.LogoutAction" method="execute">
+                <result name="success">login1.jsp</result>
+            </action>
+            <action name="delete" class="com.cyz.actions.DeleteAction" method="execute">
+                <result name="success">../view/view_user.jsp</result>
+            </action>
+            <action name="displayAction" class="com.cyz.actions.DisplayAction" method="execute">
+                <result name="success">b.jsp</result>
+            </action>
+            <action name="Tj" class="com.cyz.actions.Tj" method="execute">
+                <result name="success">success.jsp</result>
+            </action>
+
+
+    </package>
+</struts>

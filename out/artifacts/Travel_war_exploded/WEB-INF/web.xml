@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+<filter>
+        <filter-name>struts2</filter-name>
+        <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+       <!--<init-param>-->
+           <!--<param-name>includeServlets</param-name>-->
+           <!--<param-value>common_data_action</param-value>-->
+       <!--</init-param>-->
+   </filter>
+
+    <!--<filter-mapping>-->
+        <!--<filter-name>struts2</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+
+        <filter-mapping>
+            <filter-name>struts2</filter-name>
+            <url-pattern>*.action</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>struts2</filter-name>
+            <url-pattern>*.do</url-pattern>
+        </filter-mapping>
+    <filter-mapping>
+        <filter-name>struts2</filter-name>
+        <url-pattern>*.java</url-pattern>
+    </filter-mapping>
+        <filter-mapping>
+            <filter-name>struts2</filter-name>
+            <url-pattern>*.jsp</url-pattern>
+        </filter-mapping>
+        <filter-mapping>
+            <filter-name>struts2</filter-name>
+            <url-pattern>/xm13-minsu/login/*</url-pattern>
+        </filter-mapping>
+
+
+    <servlet>
+        <servlet-name>common_data_action</servlet-name>
+        <servlet-class>common.data_action</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>common_data_action</servlet-name>
+        <url-pattern>/common_data_action</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+        <servlet-name>person_file_servlet_action</servlet-name>
+        <servlet-class>person.file.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>person_file_servlet_action</servlet-name>
+        <url-pattern>/person_file_servlet_action</url-pattern>
+    </servlet-mapping>
+
+ <servlet>
+        <servlet-name>album_file_servlet_action</servlet-name>
+        <servlet-class>album.file.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>album_file_servlet_action</servlet-name>
+        <url-pattern>/album_file_servlet_action</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>myorder_file_servlet_action</servlet-name>
+        <servlet-class>myorder.file.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myorder_file_servlet_action</servlet-name>
+        <url-pattern>/myorder_file_servlet_action</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>FileUpLoad</servlet-name>
+    <servlet-class>album.FileUpload</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>FileUpLoad</servlet-name>
+        <url-pattern>/FileUpLoad</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpLoad</servlet-name>
+        <servlet-class>person.Upload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpLoad</servlet-name>
+        <url-pattern>/UpLoad</url-pattern>
+    </servlet-mapping>
+
+    <!-- ================  order begin =================           -->
+    <servlet>
+        <servlet-name>order_file_servlet_action</servlet-name>
+        <servlet-class>order.file.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>order_file_servlet_action</servlet-name>
+        <url-pattern>/order_file_servlet_action</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>order_statistic_servlet_action</servlet-name>
+        <servlet-class>order.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>order_statistic_servlet_action</servlet-name>
+        <url-pattern>/order_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+    <!-- ================ order end =================           -->
+
+<!-- ================  forum begin =================           -->
+    <!--<servlet>-->
+        <!--<servlet-name> project_file_servlet_action</servlet-name>-->
+        <!--<servlet-class> project.file.ServletAction</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name> project_file_servlet_action</servlet-name>-->
+        <!--<url-pattern>/project_file_servlet_action</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <servlet>
+        <servlet-name> project_forum_servlet_action</servlet-name>
+        <servlet-class> project.forum.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> project_forum_servlet_action</servlet-name>
+        <url-pattern>/project_forum_servlet_action</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name> project_statistic_servlet_action</servlet-name>
+        <servlet-class> project.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> project_statistic_servlet_action</servlet-name>
+        <url-pattern>/project_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+
+
+
+ <servlet>
+        <servlet-name> agri_forum_servlet_action</servlet-name>
+        <servlet-class> agri.forum.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> agri_forum_servlet_action</servlet-name>
+        <url-pattern>/agri_forum_servlet_action</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name> agri_statistic_servlet_action</servlet-name>
+        <servlet-class> agri.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> agri_statistic_servlet_action</servlet-name>
+        <url-pattern>/agri_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name> questionary_forum_servlet_action</servlet-name>
+        <servlet-class> questionary.forum.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> questionary_forum_servlet_action</servlet-name>
+        <url-pattern>/questionary_forum_servlet_action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name> questionary_statistic_servlet_action</servlet-name>
+        <servlet-class> questionary.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> questionary_statistic_servlet_action</servlet-name>
+        <url-pattern>/questionary_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+
+    <!-- ================  forum end =================           -->
+
+<!-- ================  user begin =================           -->
+    <servlet>
+        <servlet-name>user_file_servlet_action</servlet-name>
+        <servlet-class>user.file.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>user_file_servlet_action</servlet-name>
+        <url-pattern>/user_file_servlet_action</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>user_statistic_servlet_action</servlet-name>
+        <servlet-class>user.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>user_statistic_servlet_action</servlet-name>
+        <url-pattern>/user_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+    <!-- ================ user end =================           -->
+
+<!-- ================  user begin =================           -->
+    <servlet>
+        <servlet-name>article_file_servlet_action</servlet-name>
+        <servlet-class>article.file.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>article_file_servlet_action</servlet-name>
+        <url-pattern>/article_file_servlet_action</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>article_statistic_servlet_action</servlet-name>
+        <servlet-class>article.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>article_statistic_servlet_action</servlet-name>
+        <url-pattern>/article_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+    <!-- ================ user end =================           -->
+
+    <!-- ================  project begin =================           -->
+ <servlet>
+        <servlet-name>HM_statistic_servlet_action</servlet-name>
+        <servlet-class>HM.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HM_statistic_servlet_action</servlet-name>
+        <url-pattern>/HM_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>project_hm_servlet_action</servlet-name>
+        <servlet-class>HM.hm.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>project_hm_servlet_action</servlet-name>
+        <url-pattern>/project_hm_servlet_action</url-pattern>
+    </servlet-mapping>
+    <!-- ================  project end =================           -->
+
+    <!--================  CM start =================-->
+
+    <servlet>
+        <servlet-name>CM_statistic_servlet_action</servlet-name>
+        <servlet-class>CM.statistic.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CM_statistic_servlet_action</servlet-name>
+        <url-pattern>/CM_statistic_servlet_action</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>project_cm_servlet_action</servlet-name>
+        <servlet-class>CM.cm.ServletAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>project_cm_servlet_action</servlet-name>
+        <url-pattern>/project_cm_servlet_action</url-pattern>
+    </servlet-mapping>
+    <!--================ checkManage end =================-->
+
+<!--================  HS start =================-->
+
+    
+<servlet>
+
+        <servlet-name>HS_statistic_servlet_action</servlet-name>
+
+        <servlet-class>HS.statistic.ServletAction</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+        <servlet-name>HS_statistic_servlet_action</servlet-name>
+
+        <url-pattern>/HS_statistic_servlet_action</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+
+        <servlet-name>project_hs_servlet_action</servlet-name>
+
+        <servlet-class>HS.hs.ServletAction</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+        <servlet-name>project_hs_servlet_action</servlet-name>
+
+        <url-pattern>/project_hs_servlet_action</url-pattern>
+
+</servlet-mapping>
+
+
+<!--================ HouseSearch end =================-->
+
+<servlet>
+
+        <servlet-name>project_wl_servlet_action</servlet-name>
+
+        <servlet-class>WL.wl.ServletAction</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+        <servlet-name>project_wl_servlet_action</servlet-name>
+
+        <url-pattern>/project_wl_servlet_action</url-pattern>
+
+</servlet-mapping>
+
+
+
+ 
+</web-app>

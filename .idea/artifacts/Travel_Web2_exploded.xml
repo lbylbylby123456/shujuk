@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Travel:Web2 exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Travel_Web2_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Travel/web/Web2" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Travel" />
+          <element id="dir-copy" path="F:/apache-tomcat-8.5.39" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
